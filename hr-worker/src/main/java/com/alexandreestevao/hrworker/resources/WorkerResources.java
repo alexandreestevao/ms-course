@@ -41,11 +41,11 @@ public class WorkerResources {
 //			throw new RuntimeException("Test");
 		
 		//Simulação 2 do caminho alternativo Hystrix
-//		try {
-//			Thread.sleep(3000L);
-//		} catch (InterruptedException e) {
-//			e.printStackTrace();
-//		}
+		try {
+			Thread.sleep(3000L);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		
 		logger.info("PORT = " + env.getProperty("local.server.port"));
 		
